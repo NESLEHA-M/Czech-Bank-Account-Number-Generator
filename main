@@ -50,12 +50,18 @@ for number in range(100000000, 900000000):
 
     #Modulo 11 - check s vahou různých čísel
 
-    modulo11=int(number_pos[0])*3+int(number_pos[1])*7+int(number_pos[2])*9+int(number_pos[3])*10+int(number_pos[4])*5+int(number_pos[5])*8+int(number_pos[6])*4+int(number_pos[7])*2+int(number_pos[8])*1
+        modulo11=int(number_pos[0])*3\
+              +int(number_pos[1])*7\
+              +int(number_pos[2])*9\
+              +int(number_pos[3])*10\
+              +int(number_pos[4])*5\
+              +int(number_pos[5])*8\
+              +int(number_pos[6])*4\
+              +int(number_pos[7])*2\
+              +int(number_pos[8])*1
     
     Div11=int(modulo11)
   
-
- 
     if Div11%11 == 0\
        and number_pos[0]==X0\
        and number_pos[1]==X1\
