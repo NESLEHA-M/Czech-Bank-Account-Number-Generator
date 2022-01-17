@@ -15,7 +15,7 @@ print("Vypisuji použitelná čísla účtů s kódem banky:",bank_code)
 # "číslo" pro číslo na přání, "_" pro random číslo
 
     
-for number in range(240000000, 900000000):
+for number in range(100000000, 900000000):
 
     number_pos=str(number)
     
